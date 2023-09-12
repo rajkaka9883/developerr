@@ -252,7 +252,9 @@ IMDb Data:
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-🎭 Requested by : {message.from_user.mention}</b>"""
+🤴 Requested by : {message.from_user.mention}
+⚡️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/Full_Entertainment_Group
+>𝗝𝗜𝗦𝗛𝗨 𝗕𝗔𝗕𝗔</a></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""

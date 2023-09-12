@@ -1,39 +1,31 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},ɴᴀɴʙʜᴀ ᴀɴᴅ ɴᴀɴʙɪꜱ ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>,【ɪᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ+└ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘+├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤+☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ😍
 
-ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ 👇
 
-ꜰɪʀꜱᴛ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ✅
-ᴀɴᴅ ᴀᴅᴍɪɴ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ✅
-ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ /ᴄᴏɴɴᴇᴄᴛ ✅
-
-ʜᴏᴡ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛʟɪɴᴋ 👇
-<a href=https://t.me/howtodownloadmoviestamilhd/67>☞ᴄʟɪᴄᴋ ʜᴇʀᴇ☜</a>
-
-ᴅᴏɴᴇ 🆗</b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT> .....𝐉𝐈𝐒𝐇𝐔 𝐁𝐀𝐁𝐀』👮🏻‍♀️</a>
+</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamilmoviesrio_bot>𝗧𝗛𝗔𝗟𝗔𝗣𝗔𝗧𝗛𝗬 𝗙𝗜𝗟𝗧𝗘𝗥 𝗕𝗢𝗧</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Jishu_movie_bot>ᴊɪꜱʜᴜ ʙᴀʙᴀ 2.0</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/creatorrio'>RIO NETWORKS</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/creatorrio'>ᴊɪꜱʜᴜ ɢʜᴏꜱʜ</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ᴊɪꜱʜᴜ</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
+<b>Hᴇʏ, Tʜɪs ɪs ᴀ Pʀɪᴠᴀᴛᴇ  Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
 
 Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
 
-Where is source code? - <a href='https://t.me/Teamrioupdates/267'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+ꜱᴜɴᴅᴀʏ ꜱᴜꜱᴘᴇɴꜱᴇ - <a href='https://t.me/Films_Window_Channel'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 
-
-Developer - <a href='https://t.me/creatorrio'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+<b>‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/PERSONAL_CHAT_ASSISTANT_BOT'>ᴊɪꜱʜᴜ ɢʜᴏꜱʜ</a></b>
 
 special Thanks To ❤️ Devs -
 
@@ -171,11 +163,11 @@ Nᴀᴍᴇ - {}"""
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+**ᴇxᴀᴍᴘʟᴇ : 𝖩𝖺𝗐𝖺𝗇 or Uncharted 2023 or 𝖩𝖺𝗐𝖺𝗇 Hn**
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+**ᴇxᴀᴍᴘʟᴇ : ꜱᴄᴀᴍ S01 or ꜱᴄᴀᴍ S01E04 or ꜱᴄᴀᴍ S01E05**
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -189,7 +181,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/howtodownloadmoviestamilhd/67> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+<b>──────「<a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
 
 Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
 
@@ -199,7 +191,7 @@ sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢ
 
 sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://mplaylink.com/ref/106324576666323105902>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/howtodownloadmoviestamilhd/67> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -227,7 +219,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01E01
+**ᴇxᴀᴍᴘʟᴇ : ꜱᴄᴀᴍ S01E01**
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
 
@@ -240,15 +232,17 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : ➥  {file_name}
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+▫️<a href=https://t.me/Full_Entertainment_Group> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
+▫️<a href=https://t.me/MOVIES_REQUEST_NOW_2_0> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs  </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝
+𝗙𝗶𝗹𝗲 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 :<a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT>𝗝𝗜𝗦𝗛𝗨 𝗕𝗔𝗕𝗔</a> </b>"""
+ 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-
 IMDb Data:
-
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
@@ -257,11 +251,8 @@ IMDb Data:
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
-
-
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+🎭 Requested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""

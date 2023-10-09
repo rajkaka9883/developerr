@@ -1260,15 +1260,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=lazy_download),  # we download Link
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=lazy_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=lazy_download),  # we download Link
+                                                    InlineKeyboardButton('🖥 ꜱᴛʀᴇᴀᴍ ᴏɴʟɪɴᴇ 🖥', url=lazy_stream)]])  # web stream Link
             )
             await query.message.reply_text(
                 text="•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ☠︎⚔",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=lazy_download),  # we download Link
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=lazy_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=lazy_download),  # we download Link
+                                                    InlineKeyboardButton('🖥 ꜱᴛʀᴇᴀᴍ ᴏɴʟɪɴᴇ 🖥', url=lazy_stream)]])  # web stream Link
             )
         except Exception as e:
             print(e)  # print the error message
@@ -1288,17 +1288,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
+                ],[                    
+                    InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ', url=CHNL_LNK),
                     InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                  InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                  ]]
+                  InlineKeyboardButton(' ꜱᴜɴᴅᴀʏ ꜱᴜꜱᴘᴇɴꜱᴇ', url=f'https://t.me/Films_Window_Channel'),                 
+                  InlineKeyboardButton(' ꜱʜᴀʀᴇ ᴍᴇ ', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+
+                ],[                    
+                  InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info")
+                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
